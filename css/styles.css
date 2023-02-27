@@ -4,9 +4,10 @@ html {
 
 }
 
-.noDecoration, a:link, a:visited {
-    text-decoration: none!important;
-}
+a:link {color: white;}
+a:visited {color: white;}
+a:hover {color: white;}
+a:active {color: white;}   
 
 
 body {
