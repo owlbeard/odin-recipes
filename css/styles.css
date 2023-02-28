@@ -1,7 +1,15 @@
 html {
     color: #fff;
     font-size: 16vw;
+    box-sizing: border-box;
 
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  font-size: inherit;
 }
 
 a:link {color: white;}
@@ -9,10 +17,13 @@ a:visited {color: white;}
 a:hover {color: white;}
 a:active {color: white;}   
 
-
 body {
     background-image: url(../images/background.jpg);
     text-align: left;
+}
+
+span {
+    display: inline-block
 }
 
 p,
@@ -20,7 +31,7 @@ span,
 img,
 .list,
 .list2 {
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(0,0,0,.7);
     height: auto;
     width: 100%;
     max-width: 480px;
