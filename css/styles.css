@@ -9,7 +9,6 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
-  font-size: inherit;
 }
 
 a:link {color: white;}
